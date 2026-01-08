@@ -6,4 +6,4 @@ def test_bankacc_details():
         "Accont Name: Varsha\n"
         "Type: (Savings/current)"
     )
-    assert bankacc_details("A101", "Varsha", Savings) == expected_output
+    assert bankacc_details("A101", "Varsha", "Savings") == expected_output

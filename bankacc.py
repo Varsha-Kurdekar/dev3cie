@@ -10,6 +10,6 @@ def bankacc_details(account_number, name, type):
 if __name__ == "__main__":
     account_number = "A101"
     name = "Varsha"
-    type = Savings
+    type ="Savings"
 
     print(bankacc_details(account_number, name, type))
